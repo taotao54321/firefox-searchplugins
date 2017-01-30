@@ -16,3 +16,4 @@ Firefox search plugins
 * [Twitter](https://twitter.com/)
 * [YouTube](https://www.youtube.com/)
 * [nicovideo](http://www.nicovideo.jp/video_top)
+* [ShogiDB2](https://shogidb2.com/)

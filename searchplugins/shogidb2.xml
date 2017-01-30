@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>ShogiDB2</ShortName>
+  <Description>ShogiDB2</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url method="GET" type="text/html"
+       template="https://shogidb2.com/search">
+    <Param name="q"      value="{searchTerms}"/>
+  </Url>
+  <moz:SearchForm>https://shogidb2.com/</moz:SearchForm>
+</OpenSearchDescription>

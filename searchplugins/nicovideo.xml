@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>nicovideo</ShortName>
+  <Description>nicovideo</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">https://www.google.com/s2/favicons?domain=nicovideo.jp</Image>
+  <Url method="GET" type="text/html"
+       template="http://www.nicovideo.jp/search/{searchTerms}"/>
+  <Url method="GET" type="application/x-suggestions+json"
+       template="http://sug.search.nicovideo.jp/suggestion/complete/{searchTerms}"/>
+  <moz:SearchForm>http://www.nicovideo.jp/video_top</moz:SearchForm>
+</OpenSearchDescription>

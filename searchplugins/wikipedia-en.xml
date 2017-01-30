@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Wikipedia en</ShortName>
+  <Description>Wikipedia en</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">https://www.google.com/s2/favicons?domain=wikipedia.org</Image>
+  <Url method="GET" type="text/html"
+       template="https://en.wikipedia.org/w/">
+    <Param name="search"   value="{searchTerms}"/>
+    <Param name="fulltext" value="1"/>
+  </Url>
+  <Url method="GET" type="application/x-suggestions+json"
+       template="https://en.wikipedia.org/w/api.php">
+    <Param name="search"        value="{searchTerms}"/>
+    <Param name="action"        value="opensearch"/>
+    <Param name="format"        value="json"/>
+    <Param name="formatversion" value="2"/>
+  </Url>
+  <moz:SearchForm>https://en.wikipedia.org/w/?search=</moz:SearchForm>
+</OpenSearchDescription>

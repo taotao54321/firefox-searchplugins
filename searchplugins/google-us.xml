@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Google US</ShortName>
+  <Description>Google US</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">https://www.google.com/s2/favicons?domain=www.google.com</Image>
+  <Url method="GET" type="text/html"
+       template="https://www.google.com/search">
+    <Param name="q"      value="{searchTerms}"/>
+    <Param name="ie"     value="utf-8"/>
+    <Param name="oe"     value="utf-8"/>
+    <Param name="hl"     value="en"/>
+    <Param name="gl"     value="us"/>
+    <Param name="gws_rd" value="cr"/>
+    <Param name="pws"    value="0"/>
+  </Url>
+  <Url method="GET" type="application/x-suggestions+json"
+      template="https://www.google.com/complete/search">
+    <Param name="q"      value="{searchTerms}"/>
+    <Param name="client" value="firefox"/>
+  </Url>
+  <moz:SearchForm>https://www.google.com/?ie=utf-8&amp;oe=utf-8&amp;hl=en&amp;gl=us&amp;gws_rd=cr&amp;pws=0</moz:SearchForm>
+</OpenSearchDescription>

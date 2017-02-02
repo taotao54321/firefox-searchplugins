@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>GameFAQs</ShortName>
+  <Description>GameFAQs</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">https://www.google.com/s2/favicons?domain=gamefaqs.com</Image>
+  <Url method="GET" type="text/html"
+       template="https://www.gamefaqs.com/search">
+    <Param name="game" value="{searchTerms}"/>
+  </Url>
+  <moz:SearchForm>https://www.gamefaqs.com/search</moz:SearchForm>
+</OpenSearchDescription>

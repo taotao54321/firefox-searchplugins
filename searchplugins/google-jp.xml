@@ -4,7 +4,7 @@
   <ShortName>Google JP</ShortName>
   <Description>Google JP</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16">https://www.google.com/s2/favicons?domain=www.google.com</Image>
+  <Image width="16" height="16">https://www.google.com/s2/favicons?domain=google.com</Image>
   <Url method="GET" type="text/html"
        template="https://www.google.co.jp/search">
     <Param name="q"      value="{searchTerms}"/>

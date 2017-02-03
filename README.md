@@ -6,7 +6,7 @@ Firefox search plugins
 * Google
   ([US](https://www.google.com/?gws_rd=cr&pws=0),
    [UK](https://www.google.co.uk/?gws_rd=cr&pws=0),
-   [JP](https://www.google.co.jp/?gws_rd=cr&pws=0)) - No country redirect, no personalization.
+   [JP](https://www.google.co.jp/?gws_rd=cr&pws=0)) - No country redirect, no personalization, no instant search.
 * [Bing](https://www.bing.com/)
 * [DuckDuckGo](https://duckduckgo.com/)
 * Wikipedia

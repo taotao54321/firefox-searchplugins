@@ -14,11 +14,12 @@
     <Param name="gl"     value="uk"/>
     <Param name="gws_rd" value="cr"/>
     <Param name="pws"    value="0"/>
+    <Param name="as_qdr" value="all"/>
   </Url>
   <Url method="GET" type="application/x-suggestions+json"
        template="https://www.google.co.uk/complete/search">
     <Param name="q"      value="{searchTerms}"/>
     <Param name="client" value="firefox"/>
   </Url>
-  <moz:SearchForm>https://www.google.co.uk/?ie=utf-8&amp;oe=utf-8&amp;hl=en&amp;gl=uk&amp;gws_rd=cr&amp;pws=0</moz:SearchForm>
+  <moz:SearchForm>https://www.google.co.uk/?ie=utf-8&amp;oe=utf-8&amp;hl=en&amp;gl=uk&amp;gws_rd=cr&amp;pws=0&amp;as_qdr=all</moz:SearchForm>
 </OpenSearchDescription>
